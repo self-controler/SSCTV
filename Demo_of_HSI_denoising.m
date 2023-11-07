@@ -1,6 +1,6 @@
 clear all;clc;
 % addpath(genpath('../CTV_code/')) % linux/MacOS platform
-addpath(genpath('../ccstv_junheng/')) % windows platform
+addpath(genpath('../SSCTV_RPCA_demo/')) % windows platform
 %% load data
 hsi_name = 'pure_DCmall_small';
 load([hsi_name,'.mat'])
