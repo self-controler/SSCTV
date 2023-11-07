@@ -6,8 +6,8 @@ Our SSCTVmodel has been rigorously tested in the task of sparsity noise reductio
 
 After running `Demo_of_HSI_Denoising`, our model achieved the following metrics:
 
-- **Mean PSNR (mPSNR)**: Our model exhibits superior noise reduction capabilities, resulting in higher mPSNR values compared to the baseline models.
-- **Mean SSIM (mSSIM)**: The structural integrity of the denoised images is maintained more effectively by our model, as reflected by its higher mSSIM scores.
+- **PSNR**: Our model exhibits superior noise reduction capabilities, resulting in higher mPSNR values compared to the baseline models.
+- **SSIM**: The structural integrity of the denoised images is maintained more effectively by our model, as reflected by its higher mSSIM scores.
 - **ERGAS**: The lower ERGAS values obtained from our model indicate a smaller relative global error in synthesis, implying a more accurate reconstruction of the original image.
 
 ## Anomaly Detection Performance
