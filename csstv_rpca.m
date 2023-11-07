@@ -1,15 +1,13 @@
-% Oct 2021
-% written by Jiangjun Peng
-
 %% solve the problem 
-%              min_X ||D_x(X)||_*+||D_y(X)||_* +||D_z(X)||_* +\lambda||E||_1
+%              min_X ||D_zD_x(X)||_*+||D_zD_y(X)||_*  +\lambda||E||_1
 %                                   s.t.  Y= X+E
 %                          ===============================
-%              min_X ||X1||_*+||X2||_* +||X3||_* +\lambda||E||_1
+%              min_X ||X31||_*+||X32||_* +\lambda||E||_1
 %                            s.t.  Y= X+E
 %                                  D_x(X)=X1 
 %                                  D_y(X)=X2 
-%                                  D_z(X)=X3 
+%                                  D_z(X1)=X31
+%                                  D_z(X2)=X32
 %                          ===============================                       
 %         D is difference operator,T is difference tensor,T is known
 %  ------------------------------------------------------------------------
