@@ -12,9 +12,6 @@ gaussian_level = 0.0;
 sparse_level   = 0.2;
 noise_data       = GetNoise(clean_data,gaussian_level,sparse_level);
 D = reshape(noise_data,[M*N,p]);
-mpsnr = zeros(3,1);
-mssim = zeros(3,1);
-ergas = zeros(3,1);
 [psnr(1),ssim(1),ergas(1)]=msqia(clean_data, noise_data);
 
 %% SSCTV-RPCA
