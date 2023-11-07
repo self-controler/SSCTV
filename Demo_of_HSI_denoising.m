@@ -31,7 +31,7 @@ t(it)=toc;
 it =3;
 fprintf('======== CTV-RPCA  ========\n')
 opts.rho = 1.5;
-opts.lambda = 2/sqrt(M*N); 
+opts.lambda = 3/sqrt(M*N); 
 tic;
 ctv_out = ctv_rpca(noise_data,opts);
 t(it)=toc;
