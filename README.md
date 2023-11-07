@@ -1,4 +1,4 @@
-# SSCTVmodel Performance
+# SSCTV model Performance
 
 ## HSI Denoising Benchmark
 
